@@ -1,7 +1,7 @@
 function solution(gems) {
   const gemTypes = new Set(gems).size;
   const gemMap = new Map();
-  let answer = [0, gems.length];
+  let answer = [1, gems.length];
   let start = 0;
   let end = 0;
 
